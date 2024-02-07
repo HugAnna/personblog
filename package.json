@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "vuepress": "^1.9.10"
+  },
+  "name": "personblog",
+  "description": "个人博客",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "vue-template-compiler": "^2.7.16"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp" ,
+    "docs:build": "vuepress build docs",
+    
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
